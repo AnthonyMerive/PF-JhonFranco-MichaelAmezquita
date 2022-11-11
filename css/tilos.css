@@ -34,6 +34,10 @@ li{
     list-style: none;
     margin-top: -3rem;
 }
+a{
+  color: var(--color-pastel);
+  text-decoration: none;
+}
 .cabecera-izq{
     float: left;
     height: 6rem;
@@ -440,3 +444,4 @@ ul{
     transform: translate(95vw,90vh);
     transform: translate(95vw,90vh);
   }
+  
