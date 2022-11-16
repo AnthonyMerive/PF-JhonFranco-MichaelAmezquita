@@ -1,65 +1,78 @@
-:root{
-    --color-pastel: #F7F7F7;
-    --color-nigger: #000000;
-    font-size: 62.5%;
+:root {
+  --color-pastel: #f7f7f7;
+  --color-nigger: #000000;
+  font-size: 62.5%;
 }
-body{
-    background-color: var(--color-pastel);
-    background-repeat: no-repeat;
-    background-attachment: fixed ;
-    background-size: cover;
-    background-position: center;
-    color: #FFFFFF;
-    overflow: auto;
-    background-image: url(../imagenes/imagen-fondo.jpg)
+body {
+  background-color: var(--color-pastel);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  background-image: url(../imagenes/imagen-fondo.jpg);
+  margin: 0;
+  padding: 0;
 }
-.contenedor-principal{
-    margin: 0;
+.contenedor-principal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
-.cabecera{
-    height: 6rem;
-    width: 100%;
-    background-color: #404258;
+.cabecera {
+  height: 6rem;
+  width: 100%;
+  background-color: #404258;
 }
-.cabecera-der{
-    float: right;
-    height: 6rem;
-    width: 60%;
+.cabecera-der {
+  float: right;
+  height: 6rem;
+  width: 60%;
 }
-ul{
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: space-around;
-    text-decoration: none;
+ul {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
+  margin-top: 1rem;
 }
-.cabecera-izq{
-    float: left;
-    height: 6rem;
-    width: 100%;
+a {
+  text-decoration: none;
+  color: var(--color-pastel);
+  margin-right: 1rem;
 }
-.contenedor-titulos{
-    color: var(--color-nigger);
-    text-align: center;
+.cabecera-izq {
+  float: left;
+  height: 6rem;
+  width: 100%;
 }
-.titulo{
-    font-size: 4rem;
+.contenedor-titulos {
+  color: var(--color-nigger);
+  text-align: center;
 }
-.subtitulo{
-    font-size: 1.6rem;
+.titulo {
+  font-size: 4rem;
 }
-.divContenedor{
-    display: flex;
-    justify-content: space-around;
+.subtitulo {
+  font-size: 1.6rem;
 }
-.carta1{
+
+.divContenedor {
+  display: flex;
 }
-.divContenedor img{
-    height: 9rem;
-    width: 100%;
+
+.carta1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5rem;
 }
-.imagen1{
-    float: left;
+
+.divContenedor img {
+  width: 300px;
+  margin-top: 100px;
 }

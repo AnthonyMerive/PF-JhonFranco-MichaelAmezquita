@@ -37,6 +37,7 @@ li{
 a{
   color: var(--color-pastel);
   text-decoration: none;
+  margin-right: 1rem;
 }
 .cabecera-izq{
     float: left;
