@@ -1,79 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
-    <link rel="stylesheet" href="../css/tilos.css">
-</head>
-<body>
-    <div class="contenedor-principal">
-        <div class="cabecera">
-            <div class="cabecera-der">
-                <ul>
-                    <li><a href="../html/index.html">Inicio</a></li>
-                    <li><a href=""></a>Portafolio</li>
-                    <li><a href=""></a>Hojas de vida</li>
-                    <li><a href="../html/contacto.html"></a>Contacto</li>
-                </ul>
-            </div>
-            <div class="cabecera-izq"><div>
-        
-            </div>
 
-            <div class="formulario_contacto">
-    
-                <div class="formulario">      
-                  <h1>Formulario de contacto</h1>
-                    <h3>Queremos saber sobre ti!</h3>
-            
-            
-                      <form action="submeter-formulario.php" method="post">       
-            
-                        
-                            <p>
-                              <label for="nombre" class="colocar_nombre">Nombre
-                                <span class="obligatorio">*</span>
-                              </label>
-                                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                            </p>
-                          
-                            <p>
-                              <label for="email" class="colocar_email">Email
-                                <span class="obligatorio">*</span>
-                              </label>
-                                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                            </p>
-                        
-                            <p>
-                              <label for="telefone" class="colocar_telefono">Teléfono
-                              </label>
-                                <input type="number" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                            </p>    
-                            <p>
-                              <label for="mensaje" class="colocar_mensaje">Mensaje
-                                <span class="obligatorio">*</span>
-                              </label>                     
-                               <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                            </p>                    
-                          
-                            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-                            
-                            <Button type="reset" name="resetear_formulario" id="Recargar"><p> Recargar</p></Button>
-                        
-                      </form>
-                      <footer>
-                        <div class="logos">
-                            <a href=https://www.facebook.com><img src="./facebook.png" alt=""></a>
-                            <a href="https://www.instagram.com/"><img src="./logotipo-de-instagram.png" alt=""></a>
-                            <a href="https://www.tiktok.com/upload?lang=es"><img src="./tik-tok.png" alt=""></a>
-                            <a href="https://www.youtube.com/channel/UCiFIfoLvZvPqxF-Zr9vuMOQ"><img src="./youtube.png"alt=""></a>
-                            <a href="https://web.whatsapp.com/"><img src="./whatsapp.png" alt=""></a>
-                        </div>
-                    </footer>
-             </div>  
-            
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="../css/tilos.css">
+</head>
+
+<body>
+  <div class="contenedor-principal">
+    <div class="cabecera">
+      <div class="cabecera-der">
+        <ul>
+          <li><a href=>Inicio</a></li>
+          <li><a href=""></a>Portafolio</li>
+          <li><a href="../html/index.html"></a>Hojas de vida</li>
+          <li><a href="../html/contacto.html"></a>Contacto</li>
+        </ul>
+      </div>
+      <div class="cabecera-izq">
+        <div>
+
+        </div>
+
+        <div class="formulario_contacto">
+
+          <div class="formulario">
+            <h1>Formulario de contacto</h1>
+            <h3>Queremos saber sobre ti!</h3>
+
+
+            <form action="submeter-formulario.php" method="post">
+
+
+              <p>
+                <label for="nombre" class="colocar_nombre">Nombre
+                  <span class="obligatorio">*</span>
+                </label>
+                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                  placeholder="Escribe tu nombre">
+              </p>
+
+              <p>
+                <label for="email" class="colocar_email">Email
+                  <span class="obligatorio">*</span>
+                </label>
+                <input type="email" name="introducir_email" id="email" required="obligatorio"
+                  placeholder="Escribe tu Email">
+              </p>
+
+              <p>
+                <label for="telefone" class="colocar_telefono">Teléfono
+                </label>
+                <input type="number" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+              </p>
+              <p>
+                <label for="mensaje" class="colocar_mensaje">Mensaje
+                  <span class="obligatorio">*</span>
+                </label>
+                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                  placeholder="Deja aquí tu comentario..."></textarea>
+              </p>
+
+              <button type="submit" name="enviar_formulario" id="enviar">
+                <p>Enviar</p>
+              </button>
+
+              <Button type="reset" name="resetear_formulario" id="Recargar">
+                <p> Recargar</p>
+              </Button>
+
+            </form>
+            <footer>
+              <div class="logos">
+                <a href=https://www.facebook.com><img src="./facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/"><img src="./logotipo-de-instagram.png" alt=""></a>
+                <a href="https://www.tiktok.com/upload?lang=es"><img src="./tik-tok.png" alt=""></a>
+                <a href="https://www.youtube.com/channel/UCiFIfoLvZvPqxF-Zr9vuMOQ"><img src="./youtube.png" alt=""></a>
+                <a href="https://web.whatsapp.com/"><img src="./whatsapp.png" alt=""></a>
+              </div>
+            </footer>
+          </div>
+
+        </div>
 </body>
+
 </html>
