@@ -7,9 +7,11 @@ body{
     background-color: var(--color-pastel);
     background-repeat: no-repeat;
     background-attachment: fixed ;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     color: #FFFFFF;
     overflow: auto;
+    background-image: url(../imagenes/imagen-fondo.jpg)
 }
 .contenedor-principal{
     margin: 0;
@@ -48,9 +50,16 @@ li{
 .subtitulo{
     font-size: 1.6rem;
 }
-.imagen-rofe{
-    text-align: center;
-    margin-top: 10rem;
-    margin-left: -3rem;
-    opacity: 0.5;
+.divContenedor{
+    display: flex;
+    justify-content: space-around;
+}
+.carta1{
+}
+.divContenedor img{
+    height: 9rem;
+    width: 100%;
+}
+.imagen1{
+    float: left;
 }
