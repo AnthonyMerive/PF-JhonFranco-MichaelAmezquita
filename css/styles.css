@@ -14,6 +14,9 @@ body {
   margin: 0;
   padding: 0;
 }
+header{
+  width: 100%;
+}
 .contenedor-principal {
   display: flex;
   align-items: center;
@@ -83,21 +86,40 @@ a {
   width: 30rem;
   margin-top: 10rem;
 }
+.fotoJhon{
+  height: 26rem;
+}
 .foto-michael {
   height: 26rem;
 }
 .parrafo1 {
   text-align: left;
+  color: #000000;
 }
 .parrafo2 {
   text-align: center;
+  color: #000000;
 }
 footer {
   background-color: #404258;
   height: 20rem;
   width: 100%;
 }
-.logos {
-  height: 7rem;
+
+.tabla{
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5rem  blue;
+  text-align: center;
+  width: 70%;
+  height: 40%;
+}
+.footer{
+  justify-content: space-around;
+
+}
+.logoFacebook{
   width: 20%;
+  height: 20%;
 }
