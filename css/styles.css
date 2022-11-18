@@ -63,6 +63,8 @@ a {
 .divContenedor {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
+ margin-left: 20rem;
 }
 .carta1 {
   width: 100%;
@@ -72,7 +74,7 @@ a {
   align-items: center;
   margin: 1.5rem;
   text-align: center;
-  margin-left: 40rem;
+  
 }
 .carta2 {
   display: flex;
@@ -81,6 +83,7 @@ a {
   align-items: center;
   margin: 1.5rem;
   text-align: center;
+ 
 }
 .divContenedor img {
   width: 30rem;
@@ -91,6 +94,8 @@ a {
 }
 .foto-michael {
   height: 26rem;
+  
+
 }
 .parrafo1 {
   text-align: left;
@@ -99,6 +104,7 @@ a {
 .parrafo2 {
   text-align: center;
   color: #000000;
+  margin-bottom: 7rem;
 }
 footer {
   background-color: #404258;
@@ -115,6 +121,11 @@ footer {
   width: 70%;
   height: 40%;
 }
+h2{
+ 
+  color: #000000;
+}
+
 .footer{
   justify-content: space-around;
 
