@@ -1,0 +1,33 @@
+div { border-radius: 5px; }
+
+#encabezado { z-index: 1; position: fixed; background-color: lightSkyBlue; width: 97%; height: 60px; border: 2px dotted rgb(196, 19, 13); font-family: Times; margin-top: -20px; margin-bottom: 10px; }
+
+.izquierda { float: left; background-color: rgb(18, 179, 207); width: 20%; height: 350px; margin-top: 55px; margin-bottom: 10px; border: 2px groove white; }
+
+.derecha { float: right; background-color: rgb(240, 240, 240); width: 78%; height: 350px; margin-top: 55px; margin-bottom: 10px; border: 2px groove white; }
+
+#pie { margin-top: 20px; margin-bottom: 10px; clear: both; background-color: rgb(55, 201, 226); width: 100%; height: 60px; border: 2px groove white; font-family: Times; }
+
+#email { float: right; text-decoration: none; color: white; margin: 10px; }
+
+#email:hover { font-weight: bold; color: gray; }
+
+#name { float: left; font-weight: bold; color: rgb(173, 21, 21); font-size: 1.5em; margin: 22px 10px 10px 10px; }
+
+#name:hover { color: white; }
+
+.content { margin: 10px; }
+
+h4 { color: rgb(184, 97, 17); }
+
+#direccion { text-align: center; color: rgb(24, 7, 182); }
+
+span:hover { color: gray; font-weight: bold; }
+
+ol { list-style: none; margin: 20px 0 0 -20px; color: rgb(150, 10, 10); font-size: 1em; }
+
+a { text-decoration: none; color: rgb(146, 12, 12); }
+
+a:active { color: darkred; }
+
+#margen-top { margin-top: 12px; }
