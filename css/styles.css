@@ -13,6 +13,7 @@ body {
   background-image: url(../imagenes/imagen-fondo.jpg);
   margin: 0;
   padding: 0;
+  position: relative;
 }
 header {
   width: 100%;
@@ -189,10 +190,11 @@ footer img {
   height: 90%;
   width: 17%;
   margin-left: 54rem;
+  margin-top: -36rem;
 }
 .lista-footter {
   flex-direction: column;
-  margin-top: -29rem;
+  margin-top: 7.1rem;
   color: #d989b5;
 }
 .texto-enlaces {
@@ -278,4 +280,10 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
   opacity: 0.8;
+}
+@media (max-width: 550px) {
+  .foto-Michael {
+    display: flex;
+    justify-content: center;
+  }
 }
