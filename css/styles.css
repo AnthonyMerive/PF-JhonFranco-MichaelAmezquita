@@ -25,6 +25,7 @@ body {
   height: 6rem;
   width: 100%;
   background-color: #404258;
+  border-bottom: 3px solid #975c8d;
 }
 body:not() header {
   width: 100%;
