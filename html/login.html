@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicia sesión-Registrate</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../JavaScript/login.js">
+</head>
+
+<Body>
+    <div class="contenedor-principal">
+        <div class="cabecera">
+            <div class="cabecera-izq">
+                <ul class="menu">
+
+                    <ul class="menu">
+                        <a href="#0">
+                            <img src="../imagenes/imagen-header.png" alt="Diamond">
+                            <span>
+                                <span><i>David Sanchez-Michael Amezquita</i></span>
+                            </span>
+                        </a>
+                        </li>
+
+            </div>
+            <div class="cabecera-der">
+                <ul>
+                    <li><a href="../html/login.html">Inicio</a></li>
+                    <li><a href="../html/portafolio.html">Portafolio</a></li>
+                    <li><a href="../html/index.html">Hojas de vida</a></li>
+                    <li><a href="../html/contacto.html">Contacto</a></li>
+                </ul>
+
+                <form action="action_page.php" method="post">
+                    <div class="imgcontainer">
+                        <img src="../imagenes/avatarLogin.png" alt="Avatar" class="avatar">
+                    </div>
+
+                    <div class="container">
+                        <label for="uname" id="usuario"><b>usuario</b></label>
+                        <input type="text" placeholder="Ingrese usuario" name="uname" required>
+
+                        <label for="psw" id="contraseña"><b>constraseña</b></label>
+                        <input type="password" placeholder="Ingrese contraseña" name="psw" required>
+                        <label for="psw" id="contraseñaConfirmacion"><b>confirmar contraseña</b></label>
+                        <input type="password" placeholder="Ingrese contraseña" name="psw" required>
+                        <button type="submit">ingresar</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Recuerdáme
+                        </label>
+                    </div>
+
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <span class="psw">¿Olvidaste tú <a href="#" class="contraseñaCambio">
+                                contraseña?</a></span>
+                    </div>
+                </form>
+</Body>
+
+</html>
