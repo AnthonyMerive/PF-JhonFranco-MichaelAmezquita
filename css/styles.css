@@ -31,6 +31,14 @@ body {
   background-color: #00005c;
   border-bottom: 3px solid #975c8d;
 }
+.cabecera-der{
+  margin-right: 30rem;
+}
+.listaHeader{
+  display: flex;
+  justify-content: space-around;
+  float: left;
+}
 
 body:not() header {
   width: 100%;
@@ -42,6 +50,11 @@ body:not() header {
 
 ul {
   list-style: none;
+  
+}
+li{
+  margin-right: 10rem;
+
 }
 
 a {
@@ -99,6 +112,7 @@ ul {
   display: flex;
   justify-content: space-around;
   text-decoration: none;
+  
 }
 li {
   list-style: none;
