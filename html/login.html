@@ -11,56 +11,55 @@
 </head>
 
 <body>
-    <div class="contenedor-principal">
-        <div class="cabecera">
-            <div class="cabecera-izq">
+    <div class="cabecera">
+        <div class="cabecera-izq">
+            <ul class="menu">
+
                 <ul class="menu">
+                    <a href="#0">
+                        <img src="../imagenes/imagen-header.png" alt="Diamond">
+                        <span>
+                            <span><i>David Sanchez-Michael Amezquita</i></span>
+                        </span>
+                    </a>
+                    </li>
 
-                    <ul class="menu">
-                        <a href="#0">
-                            <img src="../imagenes/imagen-header.png" alt="Diamond">
-                            <span>
-                                <span><i>David Sanchez-Michael Amezquita</i></span>
-                            </span>
-                        </a>
-                        </li>
+        </div>
+        <div class="cabecera-der">
+            <ul>
+                <li><a href="../html/login.html">Inicio</a></li>
+                <li><a href="../html/portafolio.html">Portafolio</a></li>
+                <li><a href="../html/index.html">Hojas de vida</a></li>
+                <li><a href="../html/contacto.html">Contacto</a></li>
+            </ul>
 
-            </div>
-            <div class="cabecera-der">
-                <ul>
-                    <li><a href="../html/login.html">Inicio</a></li>
-                    <li><a href="../html/portafolio.html">Portafolio</a></li>
-                    <li><a href="../html/index.html">Hojas de vida</a></li>
-                    <li><a href="../html/contacto.html">Contacto</a></li>
-                </ul>
+            <form action="action_page.php" method="post">
+                <div class="imgcontainer">
+                    <img src="../imagenes/avatarLogin.png" alt="Avatar" class="avatar">
+                </div>
 
-                <form action="action_page.php" method="post">
-                    <div class="imgcontainer">
-                        <img src="../imagenes/avatarLogin.png" alt="Avatar" class="avatar">
-                    </div>
+                <div class="container">
+                    <label for="uname" id="usuario"><b>usuario</b></label>
+                    <input type="text" placeholder="Ingrese usuario" name="uname" required>
 
-                    <div class="container">
-                        <label for="uname" id="usuario"><b>usuario</b></label>
-                        <input type="text" placeholder="Ingrese usuario" name="uname" required>
+                    <label for="psw"><b>constraseña</b></label>
+                    <input type="password" id="contraseña" placeholder="Ingrese contraseña" name="psw" required>
+                    <label for="psw"><b>confirmar contraseña</b></label>
+                    <input type="password" id="contraseñaConfirmacion" placeholder="Ingrese contraseña" name="psw"
+                        required>
+                    <button type="button" onclick="obtenerDatos()">ingresar</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Recuerdáme
+                    </label>
+                </div>
 
-                        <label for="psw"><b>constraseña</b></label>
-                        <input type="password" id="contraseña" placeholder="Ingrese contraseña" name="psw" required>
-                        <label for="psw"><b>confirmar contraseña</b></label>
-                        <input type="password" id="contraseñaConfirmacion" placeholder="Ingrese contraseña" name="psw"
-                            required>
-                        <button type="button" onclick="obtenerDatos()">ingresar</button>
-                        <label>
-                            <input type="checkbox" checked="checked" name="remember"> Recuerdáme
-                        </label>
-                    </div>
-
-                    <div class="container" style="background-color:#f1f1f1">
-                        <button type="button" class="cancelbtn">Cancel</button>
-                        <span class="psw">¿Olvidaste tú <a href="#" class="contraseñaCambio">
-                                contraseña?</a></span>
-                    </div>
-                </form>
-                <script src="../JavaScript/login.js"></script>
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" class="cancelbtn">Cancelar</button>
+                    <span class="psw">¿Olvidaste tú <a href="#" class="contraseñaCambio">
+                            contraseña?</a></span>
+                </div>
+            </form>
+            <script src="../JavaScript/login.js"></script>
 
 </body>
 

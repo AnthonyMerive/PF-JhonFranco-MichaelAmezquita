@@ -166,7 +166,7 @@ button:hover {
   opacity: 0.8;
 }
 
-.cancelbtn {
+.cancelb {
   width: auto;
   padding: 1rem 1.8rem;
   background-color: #00005c;
@@ -188,7 +188,7 @@ img.avatar {
   padding: 1.6rem;
 }
 
-span.psw {
+span.contraseña-cambio {
   float: right;
   padding-top: 1.6rem;
   margin-left: -5rem;
@@ -198,8 +198,6 @@ span.psw {
 }
 @media screen and (max-width: 300px) {
   span.psw {
-    display: block;
-    float: none;
   }
   .cancelbtn {
     width: 100%;
