@@ -1,14 +1,20 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  margin: 0;
+}
 div {
   border-radius: 5px;
 }
 
 #encabezado {
   z-index: 1;
-  position: fixed;
-  background-color: rgb(87 35 100);
+  background-color: rgb(71, 35, 180);
   width: 97%;
   height: 60px;
-  border: 2px dotted rgb(87 35 100);
+  border: 2px dotted rgb(22, 6, 72);
   font-family: Times;
   margin-top: -20px;
   margin-bottom: 10px;
@@ -16,7 +22,7 @@ div {
 
 .izquierda {
   float: left;
-  background-color: rgb(87 35 100);
+  background-color: rgb(71, 35, 180);
   width: 20%;
   height: 350px;
   margin-top: 55px;
@@ -38,7 +44,7 @@ div {
   margin-top: 20px;
   margin-bottom: 10px;
   clear: both;
-  background-color: rgb(87 35 100);
+  background-color: rgb(71, 35, 180);
   width: 100%;
   height: 60px;
   border: 2px groove white;
@@ -60,7 +66,7 @@ div {
 #name {
   float: left;
   font-weight: bold;
-  color: rgb(173, 21, 21);
+  color: rgb(24, 3, 3);
   font-size: 1.5em;
   margin: 22px 10px 10px 10px;
 }
@@ -74,12 +80,12 @@ div {
 }
 
 h4 {
-  color: rgb(154, 27, 186);
+  color: rgb(22, 6, 72);
 }
 
 #direccion {
   text-align: center;
-  color: rgb(87 35 100);
+  color: rgb(22, 6, 72);
 }
 
 span:hover {
@@ -90,17 +96,17 @@ span:hover {
 ol {
   list-style: none;
   margin: 20px 0 0 -20px;
-  color: rgb(150, 10, 10);
+  color: rgb(24, 3, 3);
   font-size: 1em;
 }
 
 a {
   text-decoration: none;
-  color: rgb(146, 12, 12);
+  color: rgb(24, 3, 3);
 }
 
 a:active {
-  color: darkred;
+  color: #00005c;
 }
 
 #margen-top {

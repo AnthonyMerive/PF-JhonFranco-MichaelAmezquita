@@ -1,3 +1,7 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 :root {
   --color-pastel: #f7f7f7;
   --color-nigger: #000000;
@@ -17,7 +21,7 @@ body {
 .cabecera {
   height: 6rem;
   width: 100%;
-  background-color: #404258;
+  background-color: #00005c;
 }
 .cabecera-izq {
   float: left;
@@ -148,8 +152,8 @@ button {
   margin-bottom: 2rem;
   margin-top: 1rem;
   text-transform: uppercase;
-  background-color: #404258;
-  border-color: #404258;
+  background-color: #00005c;
+  border-color: #00005c;
   border-style: solid;
   border-radius: 1rem;
   width: 30rem;
@@ -161,7 +165,7 @@ button p {
 }
 
 span {
-  color: #404258;
+  color: #00005c;
 }
 
 input {
@@ -171,7 +175,7 @@ input {
   border-radius: 5rem;
   border-style: solid;
   border-width: 1px;
-  border-color: #404258;
+  border-color: #00005c;
   margin-top: 1rem;
   padding-left: 1rem;
   margin-bottom: 2rem;
@@ -184,7 +188,7 @@ textarea {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: #404258;
+  border-color: #00005c;
   margin-top: 1rem;
   padding-left: 1rem;
   margin-bottom: 2rem;

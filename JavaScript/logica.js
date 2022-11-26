@@ -15,7 +15,6 @@ function obtenerInfo() {
       confirmButtonText: "Ahora recibirás nuestras notificaciones",
     }).then(() => {
       location.href = "https://sweetalert2.github.io/#download";
-      console.log;
     });
   }
 }

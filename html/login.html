@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>inicia sesión-Registrate</title>
     <link rel="stylesheet" href="../css/login.css">
-    <link rel="stylesheet" href="../JavaScript/login.js">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
-<Body>
+<body>
     <div class="contenedor-principal">
         <div class="cabecera">
             <div class="cabecera-izq">
@@ -43,11 +43,12 @@
                         <label for="uname" id="usuario"><b>usuario</b></label>
                         <input type="text" placeholder="Ingrese usuario" name="uname" required>
 
-                        <label for="psw" id="contraseña"><b>constraseña</b></label>
-                        <input type="password" placeholder="Ingrese contraseña" name="psw" required>
-                        <label for="psw" id="contraseñaConfirmacion"><b>confirmar contraseña</b></label>
-                        <input type="password" placeholder="Ingrese contraseña" name="psw" required>
-                        <button type="submit">ingresar</button>
+                        <label for="psw"><b>constraseña</b></label>
+                        <input type="password" id="contraseña" placeholder="Ingrese contraseña" name="psw" required>
+                        <label for="psw"><b>confirmar contraseña</b></label>
+                        <input type="password" id="contraseñaConfirmacion" placeholder="Ingrese contraseña" name="psw"
+                            required>
+                        <button type="button" onclick="obtenerDatos()">ingresar</button>
                         <label>
                             <input type="checkbox" checked="checked" name="remember"> Recuerdáme
                         </label>
@@ -59,6 +60,8 @@
                                 contraseña?</a></span>
                     </div>
                 </form>
-</Body>
+                <script src="../JavaScript/login.js"></script>
+
+</body>
 
 </html>

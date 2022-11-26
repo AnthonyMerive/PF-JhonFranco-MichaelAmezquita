@@ -1,3 +1,7 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 :root {
   --color-pastel: #f7f7f7;
   --color-nigger: #000000;
@@ -24,7 +28,7 @@ body {
 .cabecera {
   height: 6rem;
   width: 100%;
-  background-color: #404258;
+  background-color: #00005c;
   border-bottom: 3px solid #975c8d;
 }
 body:not() header {
@@ -128,11 +132,11 @@ a {
   margin-right: 1rem;
 }
 form {
-  border: 0.3rem solid #404258;
+  border: 0.3rem solid #00005c;
   text-align: center;
   margin-top: 12rem;
   margin-right: 60rem;
-  color: #404258;
+  color: #00005c;
   text-align: unset;
   font-size: 2rem;
 }
@@ -143,12 +147,12 @@ input[type="password"] {
   padding: 1.2rem 2rem;
   margin: 0.8rem 0;
   display: inline-block;
-  border: 0.1rem solid #404258;
+  border: 0.1rem solid #00005c;
   box-sizing: border-box;
 }
 
 button {
-  background-color: #404258;
+  background-color: #00005c;
   color: var(--color-pastel);
   padding: 1.4rem 2rem;
   margin: 0.8rem 0;
@@ -164,7 +168,7 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 1rem 1.8rem;
-  background-color: #404258;
+  background-color: #00005c;
   margin-right: -7rem;
 }
 
@@ -189,7 +193,7 @@ span.psw {
   margin-left: -5rem;
 }
 .contraseñaCambio {
-  color: #404258;
+  color: #00005c;
 }
 @media screen and (max-width: 300px) {
   span.psw {
